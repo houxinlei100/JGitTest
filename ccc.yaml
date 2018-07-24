@@ -16,3 +16,12 @@ outputs:
       'card_num ': 622908403039339619
       'request_id ': 20180124101802
       'success ': true
+outputs:
+- outputLabel: "ocr_bank_card"
+  outputMulti: {}
+  outputValue:
+    dataType: 50
+    dataValue:
+      'card_num ': 622908403039339619
+      'request_id ': 20180124101802
+      'success ': true
