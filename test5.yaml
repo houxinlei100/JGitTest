@@ -1,7 +1,0 @@
-outputs:
-- outputLabel: "ocr_bank_card"
-  outputMulti: {}
-  outputValue:
-    dataType: 50
-    dataValue: "{\"card_num\":\"622908403039339619\",\"request_id\":\"20180124101802_ca4e1aa96aeee52e2cee16d1fe001b45\"\
-      ,\"success\":true}"
