@@ -1,0 +1,21 @@
+---
+kind: "VirtualService"
+metadata:
+  name: "1"
+spec:
+  hosts:
+  - "1.com"
+  http:
+  - retries:
+      attempts: 1
+      perTryTimeout: "1s"
+    match:
+    - headers:
+        1:
+          regex: "1"
+    route:
+    - destination:
+        host: "1"
+        subset: "1"
+      weight: "1"
+    timeout: "1s"
