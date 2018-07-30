@@ -8,7 +8,7 @@ spec:
   http:
   - retries:
       attempts: 1
-      perTryTimeout: "1s"
+      perTryTimeout: "s"
     match:
     - headers:
         1:
